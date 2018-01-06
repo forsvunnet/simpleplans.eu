@@ -1,0 +1,25 @@
+{
+	"name": "Simple plans",
+	"type": "wordpress-core",
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		},
+		{
+			"type": "composer",
+			"url": "https://satis.driv.digital"
+		}
+	],
+	"require": {
+		"johnpbloch/wordpress": "*",
+		"drivdigital/drivkraft-theme": "^4.1"
+	},
+	"extra": {
+		"wordpress-install-dir": "public/wp",
+		"installer-paths": {
+			"public/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+			"public/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+		}
+	}
+}

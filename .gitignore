@@ -1,0 +1,36 @@
+# Ignore common files
+/vendor
+/public/wp
+/public/wp-content
+
+# Config files
+/config.php
+/config-dev.php
+
+# Sitemap
+/public/sitemap.xml
+/public/sitemap.xml.gz
+
+# System files
+.DS_Store
+.sass-cache
+*.idea
+*.log
+
+# Server files
+/.bash_history
+/.bash_profile
+/.zshrc
+/.composer
+/.gitconfig
+/.mysql_history
+/.ssh
+/.viminfo
+/composer.phar
+/logs/
+/pagespeed-cache/
+/wp-cli.phar
+
+# Ignore SQL and txt files in the root folder
+/*.txt
+/*.sql
