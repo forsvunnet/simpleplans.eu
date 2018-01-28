@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b617877d779aa59c33142d1389ffd48",
+    "content-hash": "bf45e5caa07507c9c0a74c783b48fe97",
     "packages": [
         {
             "name": "composer/installers",
@@ -141,6 +141,17 @@
             "type": "wordpress-theme"
         },
         {
+            "name": "drivdigital/wordpress-config",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:drivdigital/wordpress-config.git",
+                "reference": "1989aaba8794bc3466751cf107febf926116d17d"
+            },
+            "type": "library",
+            "time": "2018-01-17 12:20:30"
+        },
+        {
             "name": "johnpbloch/wordpress",
             "version": "4.9.1",
             "source": {
@@ -272,7 +283,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "drivdigital/wordpress-config": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
