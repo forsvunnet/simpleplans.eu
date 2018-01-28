@@ -1,5 +1,5 @@
 {
-	"name": "Simple plans",
+	"name": "Wordpress Project",
 	"type": "wordpress-core",
 	"repositories": [
 		{
@@ -7,13 +7,17 @@
 			"url": "https://wpackagist.org"
 		},
 		{
+			"type": "vcs",
+			"url": "git@bitbucket.org:drivdigital/wordpress-config.git"
+		},
+		{
 			"type": "composer",
 			"url": "https://satis.driv.digital"
 		}
 	],
 	"require": {
-		"johnpbloch/wordpress": "*",
-		"drivdigital/drivkraft-theme": "^4.1"
+		"drivdigital/wordpress-config": "dev-master",
+		"johnpbloch/wordpress": "*"
 	},
 	"extra": {
 		"wordpress-install-dir": "public/wp",
