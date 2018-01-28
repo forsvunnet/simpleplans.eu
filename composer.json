@@ -17,7 +17,8 @@
 	],
 	"require": {
 		"drivdigital/wordpress-config": "dev-master",
-		"johnpbloch/wordpress": "*"
+		"johnpbloch/wordpress": "*",
+		"wpackagist-plugin/woocommerce": "^3.2"
 	},
 	"extra": {
 		"wordpress-install-dir": "public/wp",
